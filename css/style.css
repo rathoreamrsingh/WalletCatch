@@ -1,0 +1,106 @@
+body {
+    background: #1975FF;
+}
+.pointer{
+    cursor: pointer;
+}
+.overflow-hide{
+    overflow:hidden;
+}
+.padding-5px{
+    padding:5px;
+}
+.trans-light-blue{
+    background-color: rgba(22, 180, 230, 0.5);
+}
+.main-wrapper{
+    padding:100px;
+}
+
+.wallet img, .lend img{
+    width:100px;
+    height:100px;
+}
+.icon-heading-container{
+    margin-top: 5px;
+}
+.icon-heading-container span{
+    font-weight: bolder;
+}
+.lend{
+    margin-top:20px;   
+}
+.wallet-header{
+    /*background: #73A5F0;
+    opacity: 0.4;*/
+    overflow:hidden;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 5px 0px 10px;
+}
+.back-icon{
+    color:white;
+    opacity:1;
+    overflow:hidden;
+    padding-top:10px;
+}
+.back-icon span{
+    float:left;   
+    margin: -5px 0px 0px 10px;
+    padding: 0px;
+}
+.back-icon span img{
+    width: 20px;
+    margin: 0px;
+    margin-top: -10px;
+}
+.back-icon span h4{
+    text-decoration: none;
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-top:2px;
+}
+.month-selector{
+    overflow: hidden;
+    margin-top:5px;
+    
+}
+.month-selector-label{
+    padding-top: 4px;
+    padding-right: 4px;
+}
+.month-selector-field{
+    padding-right: 10px;
+    
+}
+.date-picker{
+    -moz-border-radius:10px; 
+    -webkit-border-radius: 10px; 
+    -khtml-border-radius: 10px; 
+    border-radius: 10px; 
+    
+}
+.main-control-container{
+    /*maring:0 auto;*/
+     width:50%;
+    overflow: hidden;
+}
+.main-control-wrapper{
+    margin-top: 5px;
+    width:100%;
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
